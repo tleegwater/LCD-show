@@ -62,3 +62,15 @@ hdmi_mode=1
 hdmi_mode=87
 hdmi_drive=1
 hdmi_cvt 800 480 60 6 0 0 0
+
+# Disable the PWR LED.
+dtparam=pwr_led_trigger=none
+dtparam=pwr_led_activelow=off
+
+# Disable Rainbow splash
+disable_splash=1
+
+# GPU Mem
+gpu_mem=256
+
+
